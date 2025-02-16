@@ -11,6 +11,7 @@ public class PrimeArray {
 			int div = 0;
 
 			for (int j = 1; j < a.length; j++) {
+
 				if (ArrayIndexNumber % j == 0) {
 					div++;
 				}
