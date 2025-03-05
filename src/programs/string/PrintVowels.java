@@ -1,4 +1,4 @@
-package com.mock;
+package programs.string;
 
 import java.util.Scanner;
 
