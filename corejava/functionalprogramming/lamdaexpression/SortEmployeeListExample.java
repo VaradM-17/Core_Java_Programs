@@ -1,4 +1,4 @@
-package com.corejava.functionalprogramming;
+package com.corejava.functionalprogramming.lamdaexpression;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -68,13 +68,14 @@ public class SortEmployeeListExample {
 		listOfEmployees.add(new Employee(2, "Abhay", 50, 50000));
 		listOfEmployees.add(new Employee(3, "Amita", 27, 40000));
 
-		Comparator<Employee> sortByAsc = (o1, o2) -> o1.getSalary() - o2.getSalary();
-		Collections.sort(listOfEmployees, sortByAsc);
+//		Comparator<Employee> sortByAsc = (o1, o2) -> o1.getSalary() - o2.getSalary();
+		Collections.sort(listOfEmployees, (o1, o2) -> o1.getSalary() - o2.getSalary());
 		System.out.print(listOfEmployees);
 
-		Comparator<Employee> sortByDsc = (o1, o2) -> o2.getSalary() - o1.getSalary();
-		Collections.sort(listOfEmployees, sortByDsc);
+//		Comparator<Employee> sortByDsc = (o1, o2) -> o2.getSalary() - o1.getSalary();
+		Collections.sort(listOfEmployees, (o1, o2) -> o2.getSalary() - o1.getSalary());
 		System.out.println(listOfEmployees);
+
 	}
 }
 

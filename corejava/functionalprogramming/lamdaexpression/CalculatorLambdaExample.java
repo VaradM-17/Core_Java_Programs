@@ -1,4 +1,4 @@
-package com.corejava.functionalprogramming;
+package com.corejava.functionalprogramming.lamdaexpression;
 
 interface Calculator {
 	int calculate(int a, int b);

@@ -1,4 +1,4 @@
-package com.corejava.functionalprogramming;
+package com.corejava.functionalprogramming.lamdaexpression;
 
 //class ThreadDemo implements Runnable {
 //
