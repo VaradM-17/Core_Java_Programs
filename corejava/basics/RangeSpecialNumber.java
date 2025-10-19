@@ -17,7 +17,7 @@ public class RangeSpecialNumber {
 
 			int result = (digitOne + digitTwo) + (digitOne * digitTwo);
 
-			System.out.println(result == i ? i + " Special number." : i + " Not a Special number.");
+			System.out.println(result == i ? i + " Spe cial number." : i + " Not a Special number.");
 		}
 		sc.close();
 	}
