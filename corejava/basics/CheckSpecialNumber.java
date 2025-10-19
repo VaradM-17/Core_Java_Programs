@@ -8,11 +8,9 @@ public class CheckSpecialNumber {
 		Scanner sc = new Scanner(System.in);
 
 		int num = sc.nextInt();
-		int digitOne;
-		int digitTwo;
 
-		digitOne = num % 10;
-		digitTwo = num / 10;
+		int digitOne = num % 10;
+		int digitTwo = num / 10;
 
 		int result = (digitOne + digitTwo) + (digitOne * digitTwo);
 
